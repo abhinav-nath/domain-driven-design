@@ -65,3 +65,37 @@ Digital Transformation is the process of using digital technologies to
 - Rapid changes are needed in systems and applications
 - Organizations need to keep up pace with new and evolving technologies
 
+## A Business Perspective of Microservices
+
+Microservices are self-contained units built to **realize a specific business capability**.
+
+### Microservice Ownership
+
+- Each service is build and operated by a small team
+  - Teams are cross-functional and supported by domain expert
+  - Two-Pizza teams : Team size ~8
+  - _"We try to create teams that are no longer than can be fed by two pizzas; we call that the two-pizza team rule"_ - Jeff Bezos
+  - **Better collaboration among smaller teams**
+    - Frequent Software Releases
+    - Faster response to changes in business
+    - Tech becomes a competitive edge
+
+### Why are Microservices organized around business capabilities?
+
+- Each service can evolve independently
+- Services are easily replaceable
+  - No impact on other services if contracts are not changing
+- Makes it easier for IT teams to understand the business
+  - They don't need to dive deep into ALL business capabilities
+- Higher alignment with business priorities
+  - If ms1 is not undergoing frequent changes then the team may decide a release cycle of 2 weeks
+  - Whereas if ms2 is undergoing some serious transformations then the team can decide a release cycle of every day
+  - No time spent on managing conflicting priorities
+
+### Critical Success Factor
+
+To get the most benefit out of MSA, the teams need to carve out the appropriate business scope of Microservices.
+
+If NOT done correctly
+- teams will be inter-dependent
+- loss of advantage of MSA

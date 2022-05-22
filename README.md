@@ -94,8 +94,26 @@ Microservices are self-contained units built to **realize a specific business ca
 
 ### Critical Success Factor
 
-To get the most benefit out of MSA, the teams need to carve out the appropriate business scope of Microservices.
+To get the most benefit out of MSA, the teams need to carve out the appropriate business scope of Microservices to stay independent.
 
 If NOT done correctly
 - teams will be inter-dependent
 - loss of advantage of MSA
+
+This is where **Domain Driven Design** comes into picture!
+DDD **bounded-context** is a representation of the business code for the Microservice.
+
+## A Technical Perspective of Microservices
+
+- **Loosely coupled set of services**
+  - only external interfaces are known to consumer services
+  - interactions are over the network or via async messaging
+  - no code level dependencies
+- Services interact over network
+- Light-weight protocol like HTTP
+- Independent code bases | deployments
+- Decentralized governance
+- Each service has a well-defined business scope
+
+
+

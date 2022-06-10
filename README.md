@@ -115,5 +115,21 @@ DDD **bounded-context** is a representation of the business code for the Microse
 - Decentralized governance
 - Each service has a well-defined business scope
 
+## What is Domain-Driven Design?
 
+Is it possible to create complex banking software without good domain knowledge? No way. Never.
+Who knows banking? The software architect? No. He just uses the bank to keep his money safe and available when he needs them.
+The software analyst? Not really. He knows to analyze a given topic, when he is given all the necessary ingredients.
+The developer? Forget it.
+Who then? The bankers, of course.
+The banking system is very well understood by the people inside, by their specialists.
+They know all the details, all the catches, all the possible issues, all the rules.
+This is where we should always start: the **domain**.
 
+**How can we make the software fit harmoniously with the domain?**
+The best way to do it is to make software a reflection of the domain.
+Software needs to incorporate the core concepts and elements of the domain, and to precisely realize the relationships between them.
+Software has to model the domain.
+
+Somebody without knowledge of banking should be able to learn a lot just by reading the code in a domain model. This is essential.
+Software which does not have its roots planted deeply into the domain will not react well to changes over time.

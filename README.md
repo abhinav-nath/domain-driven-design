@@ -136,11 +136,13 @@ Software which does not have its roots planted deeply into the domain will not r
 
 ## Layered Architecture
 
+<img width="50%" alt="Layered Architecture" src="https://user-images.githubusercontent.com/48696735/173322429-b3b167f9-f0ce-4775-b584-92349c272ebb.png">
+
+
 ### User Interface (or Presentation Layer)
 
 Responsible for showing information to the user and interpreting the user's commands.
-The external actor might sometimes be another computer system rather
-than a human user.
+The external actor might sometimes be another computer system rather than a human user.
 
 ### Application Layer
 
@@ -156,5 +158,5 @@ This layer is the heart of business software.
 
 ### Infrastructure Layer
 
-Provides generic technical capabilities that support the higher layers: message sending for the application, persistence for the domain, drawing widgets for the UI, and so on. M
+Provides generic technical capabilities that support the higher layers: message sending for the application, persistence for the domain, drawing widgets for the UI, and so on.
 The infrastructure layer may also support the pattern of interactions between the four layers through an architectural framework.
